@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Conversor de monedas</title>
+    </head>
+    <body>
+        <main>
+            <section class="conversor">
+                <div class="box1">
+                    <div class="title">
+                        <h1>Conversor de Monedas</h1>
+                    </div>
+                    <div class="cal-box">
+                        <div class="select-elements">
+                            <h2>Peso Chileno CPL</h2>
+                            <input type="text" id="amout" placeholder="0" />
+                            <div class="select">
+                                <select name="currency" id="currency">
+                                    <option value="Dolar1">Dolar</option>
+                                    <option value="Euro1">Euro</option>
+                                </select>
+                            </div>
+
+                            <button class="btn" id="btn">Buscar</button>
+
+                            <div class="results">
+                                <h3>Resultado:<span class="resultado" id="resultado"></span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+            <div class="grafico" id="grafico"></div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

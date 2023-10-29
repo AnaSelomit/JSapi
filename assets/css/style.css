@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(61, 3, 98);
+    font-family: Outfit;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: aliceblue;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #131313;
+    font-family: Outfit;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3 {
+    color: #131313;
+    font-family: Outfit;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    background-image: url(../img/representacion-3d-simbolo-euro-dolar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.conversor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cal-box {
+    background-color: rgb(185, 210, 235);
+    margin-top: 5rem;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-elements {
+    text-align: center;
+}
+
+input {
+    width: 15rem;
+    text-align: end;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 2rem;
+}
+
+select {
+    width: 10rem;
+    height: 30px;
+    font-family: Outfit;
+    text-align: center;
+    font-weight: 500;
+    margin: 30px;
+    color: aliceblue;
+    background-color: #8422c9;
+    border: none;
+    border-radius: 5px;
+}
+
+select:hover {
+    color: rgb(5, 34, 59);
+    background-color: rgb(248, 239, 255);
+    border: none;
+}
+
+.btn {
+    background-color: #15052e;
+    color: aliceblue;
+    width: 10rem;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.grafico {
+    background-color: #c3e0fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem;
+}
